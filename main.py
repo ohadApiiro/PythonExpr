@@ -6,6 +6,10 @@ class User:
 
 user = User()
 
+all_users = {
+    'a': User(),
+    'b': User()
+}
 
 def api(id):
     return user
